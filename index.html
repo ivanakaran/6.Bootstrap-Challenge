@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Font Awesome Link-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+      />
+
+    <!--  LightBox Link-->
+    <link rel="stylesheet" href="./css/lightbox.min.css">
+
+    <!-- Bootstrap Link -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+      />
+
+      <!--  CSS  Link-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Home Page</title>
+  </head>
+
+
+  <body>
+    <!--  ### Nav Bar ### -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark text-uppercase">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand">Glozzom</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active  border-left border-light ">
+              <a href="index.html" class="nav-link pl-2 pr-3 ">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="aboutus.html" class="nav-link pl-2 pr-3 ">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link pl-2 pr-3">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="blog.html" class="nav-link pl-2 pr-3">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link pl-2 pr-3">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ### End of Nav Bar ### -->
+
+    <!--    CAROUSEL   -->
+    <section id="carousel-top">
+      <div id="carouselSlide" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#carouselSlide" data-slide-to="0"></li>
+          <li data-target="#carouselSlide" data-slide-to="1"></li>
+          <li data-target="#carouselSlide" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item carouselImgOne active">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-right">
+                <h2>Heading One</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ad alias ab minus quisquam ratione quia praesentium eaque
+                  voluptas non ducimus!</p>
+                <button class="btn btn-danger text-capitalize">sign up now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carouselImgTwo">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block">
+                <h2>Heading Two</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ad alias ab minus quisquam ratione quia praesentium eaque
+                  voluptas non ducimus!</p>
+                <button class="btn btn-primary text-capitalize">learn more</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carouselImgThree">
+            <div class="container">
+              <div class="carousel-caption d-none d-sm-block text-center">
+                <h2>Heading Three</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ad alias ab minus quisquam ratione quia praesentium eaque
+                  voluptas non ducimus!</p>
+                <button class="btn btn-success text-capitalize">learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#carouselSlide" data-slide="prev"
+          class="carousel-control-prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#carouselSlide" data-slide="next"
+          class="carousel-control-next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- END OF CAROUSEL  -->
+
+    <!--     ICONS     -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cog fa-3x mb-4"></i>
+            <h3>Turning Gears</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Cupiditate, voluptatibus?</p>
+
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cloud fa-3x mb-4"></i>
+            <h3>Sending Data</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Cupiditate, voluptatibus?</p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-hand-holding-usd fa-3x mb-4"></i>
+            <h3>Making Money</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Cupiditate, voluptatibus?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--    END OF ICONS  -->
+
+    <!--  GETTING STARTED -->
+    <section id="gettingStarted" class="p-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col text-center text-white">
+            <h1>Are you ready to get started?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Dolorem fugit suscipit asperiores quidem voluptatem ipsa vitae
+              rem cum odio reiciendis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  END OF GETTING STARTED -->
+
+    <!--  LAPTOP -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center pt-3">
+            <h3>Lorem ipsum</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Pariatur amet illum laborum architecto ut commodi, corrupti
+              cumque deleniti corporis nostrum consequuntur voluptate soluta
+              fugiat veniam ratione totam placeat porro eos! Expedita,
+              excepturi. Aliquam commodi ducimus perspiciatis recusandae
+              suscipit quis tenetur quod reprehenderit delectus veniam, unde
+              asperiores fugiat perferendis modi quibusdam.</p>
+            <button class="btn btn-outline-danger">Learn More</button>
+          </div>
+          <div class="col-md-6">
+            <img src="./img/laptop.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  END OF LAPTOP -->
+
+    <!--   VIDEO POPUP  -->
+    <section id="video-popup" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-white">
+            <a href="" class="videoModal"
+              data-toggle="modal" data-target="#videoModal">
+              <i class="fas fa-play fa-2x text-white mb-3"></i>
+            </a>
+            <h1>See what we do</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--   END OF VIDEO POPUP -->       
+
+    <!--    PHOTO GALLERY    -->
+    <section class="py-5" id="photo-gallery">
+      <div class="container text-center">
+        <div class="container">
+          <h1 class="text-center display-4">Photo Gallery</h1>
+          <p class="text-center lead">Check out our photos</p>
+          <div class="row mb-3">
+            <div class="col-md-4">
+              <a href="./img/1.png"
+              data-lightbox="img-1"><img class="img-fluid p-3"
+                src="./img/1.png" alt="image-1" /></a>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a  href="./img/2.png"
+                data-lightbox="img-2"><img class="img-fluid p-3"
+                  src="./img/2.png" alt="image-2" /></a>
+            </div>
+            <div class="col-md-4">
+              <a  href="./img/3.png"
+              data-lightbox="img-3"><img class="img-fluid p-3"
+                src="./img/3.png" alt="image-3" /></a>
+            </div>
+            <div class="row mb-4">
+              <div class="col-md-4">
+                <a  href="./img/4.png"
+                data-lightbox="img-4"><img class="img-fluid p-3"
+                  src="./img/4.png" alt="image-4" /></a>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a  href="./img/5.png"
+                data-lightbox="img-5"><img class="img-fluid p-3"
+                  src="./img/5.png" alt="image-5" /></a>     
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a  href="./img/6.png"
+                data-lightbox="img-6"><img class="img-fluid p-3"
+                  src="./img/6.png" alt="image-6" /></a>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  END OF PHOTO GALLERY  -->
+
+   <!--   NEWSLETTER FORM   -->
+
+   <section class="py-5 text-center text-white bg-dark">
+     <div class="container">
+       <div class="row">
+         <div class="col">
+           <h1>Sign Up for our newsletter</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ratione ullam reiciendis, laudantium impedit amet molestiae officiis quae fuga sapiente culpa aut! Fuga, qui iste.</p>
+           <form action="" class="form-inline justify-content-center">
+             <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
+             <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Email">
+             <button type="submit" class="btn btn-primary mb-2">Submit</button>
+           </form>
+         </div>
+       </div>
+     </div>
+   </section>
+<!--    END OF NEWSLETTER FORM -->
+
+   <!--   FOOTER    -->
+   <footer id="footer" class="py-3 text-center text-white">
+     <div class="container">
+       <div class="row">
+         <div class="col">
+           <p>Copyright 2018 &copy; Glozzom</p>
+         </div>
+       </div>
+     </div>
+   </footer>
+   <!--  End of Footer-->
+        
+
+
+    <!--  VIDEO POPUP MODAL  -->
+    <div class="modal fade" id="videoModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button class="close" data-dismiss="modal"
+              aria-hidden="true">
+              <span>&times;</span>
+            </button>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item"
+                src="https://player.vimeo.com/video/137857207" allowfullscreen
+                id="videoModal"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+
+
+    <!-- Included from Bootstrap-->
+    <script
+      src="http://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"></script>
+    <script src="./js/lightbox-plus-jquery.min.js"></script>
+
+  </body>
+</html>

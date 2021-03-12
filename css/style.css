@@ -1,0 +1,67 @@
+button.navbar-toggler{
+  border: none;
+}
+
+#carousel-top .carousel-item{
+  height: 450px;
+}
+
+#carousel-top .carousel-caption{
+  bottom: 120px;
+}
+
+.carouselImgOne{
+  background-image: url(../img/image1.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carouselImgTwo{
+  background-image: url(../img/image2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carouselImgThree{
+  background-image: url(../img/image1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#gettingStarted{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), 
+    url(../img/lights.jpg);
+  min-height: 150px;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#video-popup{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)), 
+    url(../img/media.jpg);
+  min-height: 150px;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#header{
+  background-image: url(../img/image1.jpg);
+  min-height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#about .aboutImg{
+  margin-top:-100px;
+}
+
+#footer{
+  background-color: #000;
+}
